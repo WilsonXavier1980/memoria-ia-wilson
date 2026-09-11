@@ -1,0 +1,24 @@
+categoria,subcategoria,descricao_típica,hs_capitulo,hs_sugerido,taxa_mfn_pct,iva_import_pct,confianca,nota
+Reagente,Diagnóstico (frio e não-frio),"kits ELISA, anticorpos, reagentes lab",3822,3822.19,0,16,alta,"Frio/não-frio NÃO muda HS nem taxa — muda apenas frete (cadeia de frio) e seguro"
+Reagente,Sangue/antisosos,"antisoros, frações de sangue",3002,3002.12,0,16,média,Confirmar c/ despachante + MISAU se aplicável
+Reagente,Medicamentos doseados,,3003,3003.90,0,16,média,0% cf. pauta medicaments
+Reagente,Medicamentos acondicionados,,3004,3004.90,0,16,média,0% cf. pauta medicaments
+Consumível,Plásticos,"pontas, tubos, placas Petri, frascos",3926,3926.90,20,16,confirmar,"Risco: 7.5 vs 20 — validar c/ despachante; alternativa: acessório de equipamento (8479.90=5%) se aplicável"
+Consumível,Vidro lab,"lâminas, frascos, pipetas vidro",7017,7017.90,5,16,média,Confirmar subposição
+Consumível,Borracha,"tampas, juntas, luvas",4016,4016.90,7.5,16,confirmar,Confirmar 7.5 vs 20 conforme acabamento
+Consumível,Metal,"tripés, suportes, instrumentaria simples",7326,7326.90,20,16,confirmar,Confirmar 7.5 vs 20; artigos acabados tendem a 20
+Consumível,Utensílios domésticos aço,"panelas de pressão DOMÉSTICAS",7323,7323.93,20,16,alta,"ARMADILHA: se o item for esterilizador lab, exigir datasheet e usar 8419.20, senão 20%"
+Equipamento,Capelas/hoods,"cabine biossegurança Classe II",8414,8414.80,5,16,média,Alternativa 8419.89 (5%) — neutra
+Equipamento,Climatização,"AC split 18000 BTU",8415,8415.10,20,16,alta,Bem de consumo = 20%
+Equipamento,Refrigeração,"combinados frigorífico+freezer, freezers lab",8418,8418.10,20,16,alta,Bem de consumo = 20; walk-in: 8418.69/9406 (confirmar taxa)
+Equipamento,Esterilização hospitalar,"autoclaves, esterilizadores a vapor",8419,8419.20,0,16,média,"OPORTUNIDADE 0% como equipamento médico — exigir fundamentação escrita do despachante; fallback 5%"
+Equipamento,Secadores lab,"liofilizador",8419,8419.39,5,16,alta,—
+Equipamento,Tratamento térmico lab,"incubadoras, estufas, banhos",8419,8419.89,5,16,alta,—
+Equipamento,Centrífugas,"todas centrifugas lab",8421,8421.19,5,16,alta,Taxa confirmada p/ centrífugas lab
+Equipamento,Lavadoras,"lavadoras frascos/vidraria",8422,8422.19,5,16,alta,Alt. 8422.20 — neutra
+Equipamento,Encher/fechar/rotular,"enchedoras, capsuladoras, rotuladoras",8422,8422.30,5,16,alta,—
+Equipamento,Mistura/agitação,"agitadores magnéticos, vortex",8479,8479.82,5,16,alta,—
+Equipamento,Partes de mistura,"barras magnéticas PTFE (acessório)",8479,8479.90,5,16,média,"Defender como parte de 8479.82; risco 3926.90=20% se AT ler 'plástico'"
+Equipamento,Óptica,"microscópios",9011,9011.80,5,16,média,Verificar 2.5% p/ instrumentos científicos na pauta vigente
+Equipamento,Medida,"termómetros, higrómetros",9025,9025.19,5,16,média,Origem RSA: preferência SADC 0% c/ certificado de origem
+Serviço,Treino/instalação/calibração,"instalação, montagem, formação, calibração pós-importação",SERV,N/A,0,16,alta,"0% direitos (fora do valor aduaneiro); IVA 16% só na factura final ao cliente; segregar bens vs serviços"

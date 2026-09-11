@@ -323,3 +323,12 @@ TOTAIS       = SUM das linhas (nunca % sobre o total — evita E13)
 - Pauta/taxas: fontes citadas inline; validação final compete ao despachante/AT.
 
 *Fim do relatório — Rev.0 (pendente de Rev.1 após recepção do workbook-fonte).*
+
+---
+
+## ANEXO C — Kit forense automatizado (Rev.0.1, 11/09/2026)
+- `auditoria_planilha.py` — motor de auditoria (controlos T1/T2/T6/T12/T13/C2/C5/C6/C7/C9/C10 + células/regras vermelhas).
+  Uso: `python3 auditoria_planilha.py "Planilha Orçamento V Preço de Venda.xlsx" --out achados.csv`
+  Validação: `python3 auditoria_planilha.py --self-test` → **10/10 controlos OK ✔** (workbook sintético, erros plantados).
+- `hs_reference_mz.csv` — tabela HS × taxa MFN × IVA × categoria (24 linhas) usada pelo controlo C5.
+- Assim que o workbook-fonte for anexado, a Rev.1 deste relatório sai com achados célula-a-célula.
